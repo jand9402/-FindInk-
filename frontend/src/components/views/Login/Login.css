@@ -1,0 +1,77 @@
+.divLogin{
+    background-color: #ffffff;
+}
+
+.Form{
+    margin-top: 6% !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.iniciar_sesion{
+    color: white;
+}
+
+.crear_cuenta{
+    color: white;
+}
+
+/* .col-lg-5Img{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} */
+
+.rowLogin{
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+/* .col-lg-7form{
+    background-color: rgb(184, 178, 178);
+    padding-top: 20px;
+    padding-bottom: 20px;
+} */
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+    animation: girar infinite 25s linear;
+}
+
+.btn1{
+    border-radius: 4px;
+    border-color: #000000;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    transition: 300ms all;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.btn1:hover{
+    background-color: #838383;
+    color: white;
+}
+
+.olvido{
+    text-align: center !important;
+}
+
+.col-lg-5Img{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-lg-7form{
+    align-items: center;
+}
