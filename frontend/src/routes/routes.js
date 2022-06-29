@@ -26,6 +26,11 @@ const routes = [
         render: props => <Register {...props} />
     },
     {
+        path: "/home",
+        exact: true,
+        render: props => <Home {...props} />
+    },
+    {
         path: "/app",
         render: props => <RouteController component={Home} {...props} />,
         routes: [

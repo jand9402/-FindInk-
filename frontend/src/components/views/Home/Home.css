@@ -1,0 +1,69 @@
+.text_banner1{
+    color: white;
+    padding-top: 10%;
+}
+
+.sub_banner1{
+    color: white;
+}
+
+.btn_banner1{
+    border: none;
+    background-color: #9F1663;
+    color: white;
+    padding: 1%;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.btn_banner1:hover{
+    border-color: #9F1663;
+    background-color: #000000;
+    box-shadow: 0px 0px 29px 6px #9F1663;
+}
+
+.carousel-item{
+    background-image: url("../../../assets/banner1.png");
+    height: 400px;
+    text-align: center;
+}
+
+.conaiter_que_hacer{
+}
+
+
+@media (max-width: 450px) {
+    .carousel-item {
+      height: 200px;
+    }
+    .text_banner1{
+        color: white;
+        padding-top: 5%;
+    }
+    
+    .sub_banner1{
+        color: white;
+    }
+    
+    .btn_banner1{
+        border: none;
+        background-color: #9F1663;
+        color: white;
+        padding: 2%;
+        border-radius: 15px;
+        margin-top: 10px;
+        font-size: small;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+    
+    .btn_banner1:hover{
+        border-color: #9F1663;
+        background-color: #000000;
+        box-shadow: 0px 0px 29px 6px #9F1663;
+    }
+  }
