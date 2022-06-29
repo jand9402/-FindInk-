@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../../Layout'
 import { renderRoutes } from '../../../routes/RouteUtils'
-import NavbarVisit from '../NavbarVisit/NavbarVisit'
 import banner from "../../../assets/banner1.png"
 import "./Home.css"
 import CardsHome from '../CardsHome/CardsHome'
@@ -10,7 +9,6 @@ const Home = props => {
     const { route } = props
     return (
         <>
-            <NavbarVisit />
             <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
