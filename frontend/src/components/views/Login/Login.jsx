@@ -39,59 +39,48 @@ const Login = () => {
     }
 
 return(
-    <div className="divLogin">
-    <section className="Form mx-5">
-        <div className="container containerLogin">
-            <div className="row rowLogin no-gutters">
-                <div className="col-lg-6 col-lg-5Img">
-                    <img className="img-fluid" src={logo1} alt="logo"/>
+    <div className='container'>
+        <div className='login-box'>
+            <img className='img_login' src={logo1} alt="FindInk"/>
+            <form>
+                <div className='user-box'>
+                    <input 
+                    type="email"
+                    label='Username'
+                    value={body.username}
+                    onChange={inputChange}
+                    name='username'/>
+                        <label>Correo</label>
                 </div>
-                <div className="col-lg-6 px-5 pt-5 col-lg-7form">
-                    <h4 className="font-weight-bold py-3 iniciar_sesion">Iniciar sesión</h4>
-                    <form>
-                        <div className="form-row">
-                            <div className="col-lg-7">
-                                <input 
-                                type="email" 
-                                className="form-control my-3 p-3" 
-                                placeholder="Correo" 
-                                label='Username'
-                                value={body.username}
-                                onChange={inputChange}
-                                name='username'
-                                />
-                            </div>
-                        </div>
-                        <div className="form-row">
-                            <div className="col-lg-7">
-                                <input 
-                                type="password" 
-                                className="form-control my-3 p-3" 
-                                placeholder="Contraseña" 
-                                label='Password'
-                                value={body.password}
-                                onChange={inputChange}
-                                name='password'
-                            />
-                            </div>
-                        </div>
-                        <div className="form-row">
-                            <div className="col-lg-7">
-                                <button type="button" className="btn1 mb-3" onClick={onSubmit}>Iniciar Sesión</button>
-                            </div>
-                        </div>
-                        <div className="form-row">
-                            <div className="col-lg-7">
-                                <button type="button" className="btn1 mb-3" >Iniciar Sesión con Goolge</button>
-                        <a className="olvido" href="#">¿Olvidaste la contraseña?</a>
-                        <p className="crear_cuenta">¿No tienes una cuenta? <a href="#">Crear cuenta</a></p>
-                            </div>
-                        </div>
-                    </form>
+                <div className='user-box'>
+                <input type="password" 
+                    label='Password'
+                    value={body.password}
+                    onChange={inputChange}
+                    name='password'/>
+                        <label>Contraseña</label>
                 </div>
-            </div>
+                <a className='iniciar_sesion'>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Iniciar Sesión
+                </a>
+                <a className='iniciar_sesion'>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Iniciar con Google
+                </a>
+                <div className='links_login'>
+                <a className="olvido" href="#">¿Olvidaste la contraseña?</a>
+                <p className="crear_cuenta">¿No tienes una cuenta? <a className="olvido" href="#">Crear cuenta</a></p>
+                </div>
+                            
+            </form>
         </div>
-    </section>
     </div>
 )
 }
