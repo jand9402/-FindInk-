@@ -73,6 +73,26 @@
     padding-top: 30px;
     margin-bottom: 30px;
 }
+
+.titulo_ver_tatuadores{
+    color: white;
+    text-align: center;
+}
+
+.parrafo_ver_tatuadores{
+    color: transparent;
+    text-align: center;
+    font-size: 150%;
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition: 300ms all;
+    -o-transition: 300ms all;
+}
+
+.parrafo_ver_tatuadores:hover{
+    color: rgb(196, 196, 196);
+}
 @media (max-width: 450px) {
   
   }
