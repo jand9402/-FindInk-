@@ -39,7 +39,8 @@ const Login = () => {
     }
 
 return(
-    <div className='container'>
+    <>
+    <div className='container container_login'>
         <div className='login-box'>
             <img className='img_login' src={logo1} alt="FindInk"/>
             <form>
@@ -82,6 +83,7 @@ return(
             </form>
         </div>
     </div>
+    </>
 )
 }
 
