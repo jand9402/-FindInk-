@@ -55,7 +55,9 @@ const Home = props => {
                 <Link to="/proyects" className="Links LinkCards">
                     <div className="div_contenedor_botones">
                             <div className="div_botones">
+                                <Link to='/register'>
                                 <button className='tresbotones'>REGISTRARSE</button>
+                                </Link>
                                 <br/>
                                 <button className='tresbotones'>CONTACTANOS</button>
                                 <br/>
