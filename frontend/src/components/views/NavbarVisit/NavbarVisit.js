@@ -38,6 +38,11 @@ return(
           <a className="nav-link active">Iniciar sesión</a>
           </Link>
         </li>
+        <li className="nav-item">
+          <Link className="Link" to="/register">
+          <a className="nav-link active">Registrarse</a>
+          </Link>
+        </li>
       </ul>
       <form className="d-flex" role="search">
         {/* <input className="form-control me-2" type="search" placeholder="Buscar mi tatuador" aria-label="Search"/>
