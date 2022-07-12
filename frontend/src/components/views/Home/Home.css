@@ -25,7 +25,7 @@
 }
 
 .carousel-item{
-    background-image: url("../../../assets/banner1.png");
+    background-image: url("../../../assets/banner2.png");
     height: 400px;
     text-align: center;
 }
@@ -38,18 +38,18 @@
 .title_video_home{
     color: white;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .text_video_home{
     color: white;
     text-align: left;
-    margin-top: 8%;
 }
 
+
 .video_home{
-    width: 640px;
-    height: 480px;
+    width: 100%;
+    margin-top: 10%;
     margin-bottom: 50px;
 }
 
@@ -96,15 +96,22 @@
 
 .img_nosotros{
     width: 100%;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
-@media (max-width: 500px) {
-.video_home{
-    width: 300px;
-    height: auto;
+.title_nosotros_home{
+    text-align: center;
+    color: white;
+    margin-top: 20%;
 }
+
+.text_nosotros_home{
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 20%;
 }
+
+
 @media (max-width: 450px) {
     .carousel-item {
       height: 200px;
