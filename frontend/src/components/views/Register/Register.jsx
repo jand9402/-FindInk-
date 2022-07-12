@@ -117,8 +117,9 @@ const Register = () => {
     
 
     return (
-        <div>
-            <div className='container container_register'>
+        <>
+        <div className='container'>
+            <div className='row row_form justify-content-center'>
                 <div className='login-box register-box'>
                     <img className='img_login' src={logo1} alt="FindInk" />
                     <Form>
@@ -179,6 +180,7 @@ const Register = () => {
                                     {errors.confirmpassword && (
                     <p className="errosRegistro">{errors.confirmpassword}</p>
                   )}
+                  <br/>
                                     <label className='textfff'>Tipo de usuario</label>
                                     {['radio'].map((type) => (
                                         <div key={`inline-${type}`} className="mb-3">
@@ -191,6 +193,7 @@ const Register = () => {
                                                 type={type}
                                                 id={`inline-${type}-1`}
                                             />
+                                            <br/>
                                             <Form.Check
                                                 className='textfff'
                                                 inline
@@ -218,6 +221,7 @@ const Register = () => {
                                                 type={type}
                                                 id={`inline-${type}-1`}
                                             />
+                                            <br/>
                                             <Form.Check
                                                 className='textfff'
                                                 inline
@@ -227,10 +231,11 @@ const Register = () => {
                                                 type={type}
                                                 id={`inline-${type}-2`}
                                             />
+                                            <br/>
                                             <Form.Check
                                                 className='textfff'
                                                 inline
-                                                label="No binario"
+                                                label="Otro"
                                                 name="gender"
                                                 value="3" onChange={inputChange}
                                                 type={type}
@@ -241,6 +246,8 @@ const Register = () => {
                                     {errors.gender && (
                     <p className="errosRegistro">{errors.gender}</p>
                   )}
+                  <br/>
+                  <br/>
                                     <Form.Group className="mb-3" controlId="formBasicCheckbox">
                                         <Form.Label className='textfff'>Al registrarse estas aceptando los Términos y Condiciones y Politicas de Privacidad</Form.Label>
                                         <div className='d-flex'>
@@ -276,7 +283,9 @@ const Register = () => {
                     </Form>
                 </div>
             </div>
-        </div>
+            </div>
+            
+        </>
     )
 }
 
