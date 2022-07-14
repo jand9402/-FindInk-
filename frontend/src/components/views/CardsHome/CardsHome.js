@@ -12,7 +12,7 @@ export default function CardsHome() {
             <div className="row row_cards">
             <div className="col-lg-4 mt-4 col_cards">
                 <Link to="/proyects" className="Links LinkCards">
-                    <div class="card card_img1">
+                    <div class="card all_cards card_img1">
                             <div class="card-body">
                                 <h2 className="titulo_ver_tatuadores">Ver tatuadores</h2>
                                 <p className="parrafo_ver_tatuadores">¡YA ESTA AQUI! La mejor forma de encontrar tu tatuador ideal 
@@ -26,7 +26,7 @@ export default function CardsHome() {
 
             <div className="col-lg-4 mt-4 col_cards">
                 <Link to="/proyects" className="Links LinkCards">
-                    <div class="card card_img2">
+                    <div class="card all_cards card_img2">
                             <div class="card-body">
                             <h2 className="titulo_ver_tatuadores">Ver estilos</h2>
                                 <p className="parrafo_ver_tatuadores">¿Aun no sabes que quieres? Entra aquí y 
@@ -40,7 +40,7 @@ export default function CardsHome() {
 
             <div className="col-lg-4 mt-4 col_cards mb-5">
                 <Link to="/proyects" className="Links LinkCards">
-                    <div class="card card_img3">
+                    <div class="card all_cards card_img3">
                             <div class="card-body">
                             <h2 className="titulo_ver_tatuadores">Ir al marketplace</h2>
                                 <p className="parrafo_ver_tatuadores">Entra a nuestro Marketplace y 
