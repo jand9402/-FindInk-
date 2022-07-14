@@ -7,7 +7,7 @@ function NavbarVisit(){
 return(
     <nav className="navbar navbar-expand-lg ">
   <div className="container-fluid">
-    <Link to="/home">
+    <Link to="/">
     <a className="navbar-brand" href="#"><img className="logoNav" src={logo} alt="basket colombia logo"/></a>
     </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,12 +16,14 @@ return(
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="Links" to="/home">
+          <Link className="Links" to="/">
           <a className="nav-link active" aria-current="page">Inicio</a>
           </Link>
         </li>
         <li className="nav-item">
+        <Link className="Links" to="/tatuadores">
           <a className="nav-link">Tatuadores</a>
+        </Link>
         </li>
         <li className="nav-item dropdown">
         <Link className="Links" to="/marketplace">
