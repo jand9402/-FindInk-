@@ -1,14 +1,26 @@
 import React from 'react'
-import Layout from '../../Layout'
-import { renderRoutes } from '../../../routes/RouteUtils'
-import banner from "../../../assets/banner1.png"
 import "./Home.css"
 import CardsHome from '../CardsHome/CardsHome'
 import video from "../../../assets/videoHome.mp4"
 import imagenfindink from "../../../assets/imagenfindink.jpeg"
 import { Link } from 'react-router-dom'
+import { getTatuadores } from '../../../redux/actions'
+import { useDispatch, useSelector } from 'react-redux'
+
+import { useEffect, useState } from 'react'
+
+
 
 const Home = props => {
+
+    const dispatch = useDispatch()
+    const allEvents = useSelector((state) => state.all_events)
+
+
+    useEffect(() => {
+        dispatch(getTatuadores())
+    }, [dispatch])
+
     const { route } = props
     return (
         <>

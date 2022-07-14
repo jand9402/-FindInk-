@@ -1,0 +1,75 @@
+/* .card_tatuador{
+    background-color: rgba(0, 0, 0, 0.219) !important;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s;
+    transform-style: preserve-3d;
+    border: solid 2px red;
+}
+
+.list-group-tatuadores{
+    background-color: rgba(0, 0, 0, 0.219) !important;
+    color: white !important;
+}
+
+.card_tatuador:hover{
+    transform:scale(1.02);
+    cursor: hand;
+    -webkit-transform:scale(1.02);
+    -moz-transform:scale(1.02);
+    -ms-transform:scale(1.02);
+    -o-transform:scale(1.02);
+}
+
+.card-title{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.card-img-top{
+    height: 50%;
+}
+
+.estrellas{
+    width: 80px;
+}
+
+.card-body-tatuadores{
+    border: solid 2px blue;
+    height: 0px !important;
+}
+
+
+
+ */
+
+ .card-img-top{
+    height: 260px;
+ }
+
+ .card_tatuadores{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.219) !important;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s;
+    transform-style: preserve-3d;
+ }
+
+ .card_tatuadores:hover{
+    transform:scale(1.02);
+    cursor: hand;
+    -webkit-transform:scale(1.02);
+    -moz-transform:scale(1.02);
+    -ms-transform:scale(1.02);
+    -o-transform:scale(1.02);
+}
+
+.list-group-tatuadores{
+    background-color: rgba(0, 0, 0, 0.219) !important;
+    color: white;
+}
+
+.estrellas{
+    width: 80px;
+}

@@ -1,10 +1,5 @@
 import React, { useState } from 'react'
-import { Grid, Container, Paper, Avatar, Typography, TextField, Button, CssBaseline } from '@material-ui/core'
-import { makeStyles } from '@material-ui/core/styles'
-import fondo from './fondo.jpg'
-import { LockOutlined as LockOutlinedIcon } from '@material-ui/icons'
 import axios from 'axios'
-import { useHistory } from 'react-router-dom'
 import logo1 from "../../../assets/logo1.png"
 import "./Login.css"
 
@@ -13,7 +8,6 @@ import "./Login.css"
 const Login = () => {
 
     const [body, setBody] = useState({ username: '', password: '' })
-    const { push } = useHistory()
 
     const inputChange = ({ target }) => {
         const { name, value } = target
@@ -31,7 +25,6 @@ const Login = () => {
                 console.log(data);
                 localStorage.setItem('User', JSON.stringify(data));
                 localStorage.setItem('auth', JSON.stringify("yes"));
-                push('/app');
             })
             .catch(({ response }) => {
                 console.log(response.data)
