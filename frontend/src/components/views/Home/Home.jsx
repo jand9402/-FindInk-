@@ -29,7 +29,9 @@ const Home = props => {
                     <div className="carousel-item active">
                         <h1 className='text_banner1'>¡Conoce a los mejores tatuadores de Colombia!</h1>
                         <h3 className='sub_banner1'>Un sistema creado para ayudarte</h3>
+                        <Link to="/tatuadores">
                         <button className='btn_banner1'>ENCUENTRA A TU TATUADOR</button>
+                        </Link>
                     </div>
                 </div>
             </div>
