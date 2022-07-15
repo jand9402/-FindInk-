@@ -11,7 +11,7 @@ export default function CardsHome() {
                 <h1 className="title_cardsHome">¿Que te gustaria hacer?</h1>
             <div className="row row_cards">
             <div className="col-lg-4 mt-4 col_cards">
-                <Link to="/proyects" className="Links LinkCards">
+                <Link to="/tatuadores" className="Links LinkCards">
                     <div class="card all_cards card_img1">
                             <div class="card-body">
                                 <h2 className="titulo_ver_tatuadores">Ver tatuadores</h2>

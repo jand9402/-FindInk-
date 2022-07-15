@@ -83,7 +83,7 @@ function FilterTatuadores(){
         {/* filtro de Pais */}
         <li class="nav-item dropdown">
           <a class="nav-link nav-link-eventos dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Ubicación
+            Pais
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a value='all' onClick={(e) => handletodos(e)} class="dropdown-item">Todos los paises</a></li>
@@ -125,6 +125,7 @@ function FilterTatuadores(){
         })}
         </ul>
         </li>
+        
         {/* <li class="nav-item dropdown">
           <a class="nav-link nav-link-eventos dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Rama

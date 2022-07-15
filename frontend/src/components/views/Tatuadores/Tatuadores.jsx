@@ -15,14 +15,20 @@ const Home = props => {
     return (
         <>
             <div className="container container_test">
-    <div className="TituloEventos">
-    {/* <h1 className='titulo_tatuadores'>Tatuadores</h1> */}
+                <div className='d-flex justify-content-center'>
+                <div className='publicidad_tatuadores_page'>
+                    <h1 className="publicdadTitulo">Espacio para publicidad</h1>
+                </div>
+                </div>
+    <div className="filtros">
         <FilterTatuadores/>
     </div>
     <div className="row">
         {allTatuadores.map((t) => {
           return (
-              <CardsTatuadores key={t.id} 
+              <CardsTatuadores 
+              key={t.id} 
+              id={t.id} 
               nombre={t.nombre}
               pais={t.pais} 
               estilos={t.estilos}
