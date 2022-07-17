@@ -21,6 +21,9 @@ export default function DetailEvent(){
     })
 
     return(
+      <div class="holy-grail-body">
+
+			<section class="holy-grail-content">
         <>
         <div className="container">
           <div className="row row_img_perfil">
@@ -43,6 +46,18 @@ export default function DetailEvent(){
           </div>
         </div>
         </>
+
+			</section>
+
+			<div class="holy-grail-sidebar-2 hg-sidebar">
+				<p>Espacio para publicidad</p>
+			</div>
+
+		</div>
+
+
+
+       
     )
 }
 
