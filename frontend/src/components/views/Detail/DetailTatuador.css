@@ -66,3 +66,63 @@
     -ms-transform:scale(2);
     -o-transform:scale(2);
 }
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+  }
+  
+  .holy-grail header,
+  .holy-grail footer,
+  .hg-sidebar,
+  .holy-grail-content {
+    padding: 20px;
+  }
+  
+  .holy-grail header,
+  .holy-grail footer {
+    background: #F34A4E;
+  }
+  
+  .hg-sidebar {
+    background: #9F1663;
+    color: white;
+  }
+  
+  .holy-grail-content {
+    color: #777;
+  }
+  
+  .holy-grail {
+    min-height: 100vh;
+  }
+  
+  .holy-grail,
+  .holy-grail-body {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+  }
+  
+  .holy-grail-content {
+    flex: 1 1 auto;
+  }
+  
+  @media (min-width: 768px) {
+    .holy-grail-sidebar-1 {
+      order: -1;
+    }
+  
+    .holy-grail-body {
+      flex-direction: row;
+    }
+  
+    .hg-sidebar {
+      flex: 0 0 260px;
+    }
+  }
