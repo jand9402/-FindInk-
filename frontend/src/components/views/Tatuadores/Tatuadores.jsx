@@ -36,7 +36,7 @@ const Home = props => {
               foto_de_perfil={t.foto_de_perfil} 
               galeria={t.galeria}
               rate={t.rate}
-              visitantes={t.visitantes} />
+              visitas={t.visitas} />
           );
         })}
     </div>

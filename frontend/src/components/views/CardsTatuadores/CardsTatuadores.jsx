@@ -5,7 +5,7 @@ import estrellas from "../../../assets/estrellas.png"
 
 
 
-function CardsTatuadores({id, nombre, pais, estilos, ciudad, foto_de_perfil, galeria, rate, visitantes}){
+function CardsTatuadores({id, nombre, pais, estilos, ciudad, foto_de_perfil, galeria, rate, visitas}){
 
 return(
   <div className="col-md-3 mb-4">
@@ -15,6 +15,7 @@ return(
   <div class="card-body">
     <h5 class="card-title">{nombre}</h5>
     <img src={estrellas} class="estrellas" alt={nombre}/>
+    <p className="visitas">Número de visitas: {visitas}</p>
   </div>
   <ul class="list-group list-group-tatuadores list-group-flush">
     <li class="list-group-item list-group-tatuadores">{pais}</li>
