@@ -30,6 +30,21 @@ export default function DetailEvent(){
             <div className="foto_perfil">
               <img className="foto_circular" src={current.foto_de_perfil} alt={current.nombre}/>
             </div>
+            <row className="mt-5">
+            Nombre: {current.nombre_real}
+            <br/>
+            Apodo: {current.nombre}
+            <br/>
+            Pais: {current.pais}
+            <br/>
+            Ciudad: {current.ciudad}
+            <br/>
+            Estilo principal: {current.estilos}
+            <br/>
+            califacion: {current.rate}
+            <br/>
+            Numero de visitas: {current.visitas}
+            </row>
           </div>
           <div className="row row_info_tatuador">
             <div className="col col_galeria">
