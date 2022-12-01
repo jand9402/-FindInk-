@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .Link{
@@ -15,13 +15,13 @@
 }
 
 .nav-link{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: large !important;
     cursor: pointer;
 }
 
 .nav-link:hover{
-    color: #838383;
+    color: #7e7e7e;
 }
 
 .btn-search{
@@ -48,8 +48,24 @@
     text-decoration: none;
 }
 
-.navbar-collapse{
+.collapse{
 }
+
+.navbar-nav{
+    margin-left: 30%;
+}
+/* 
+.nav-link_tatuador{
+    border-right: solid 1px rgb(0, 0, 0);
+}
+
+
+.nav-link_preguntas{
+    border-right: solid 1px rgb(0, 0, 0);
+} */
+
+
+
 
 
 
