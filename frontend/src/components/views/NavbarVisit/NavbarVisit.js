@@ -8,7 +8,7 @@ return(
     <nav className="navbar navbar-expand-lg ">
   <div className="container-fluid">
     <Link to="/">
-    <a className="navbar-brand" href="#"><img className="logoNav" src={logo} alt="basket colombia logo"/></a>
+    <a className="navbar-brand" href="#"><img className="logoNav" src={logo} alt="findink logo"/></a>
     </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon navbar-toggler-icon-nav"></span>
@@ -45,11 +45,18 @@ return(
           <a className="nav-link active">Buscar</a>
           </Link>
         </li> */}
-      </ul>
-      <form className="d-flex" role="search">
+        <li className="nav-item">
+        <form className="d-flex" role="search">
         <input className="form-control me-2" type="search" placeholder="Buscar mi tatuador" aria-label="Search"/>
         <button className="btn btn-search btn-outline-success" type="submit">Buscar</button>
       </form>
+        </li>
+        
+      </ul>
+      {/* <form className="d-flex" role="search">
+        <input className="form-control me-2" type="search" placeholder="Buscar mi tatuador" aria-label="Search"/>
+        <button className="btn btn-search btn-outline-success" type="submit">Buscar</button>
+      </form> */}
     </div>
   </div>
 </nav>

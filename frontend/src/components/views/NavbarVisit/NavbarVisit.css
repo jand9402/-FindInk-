@@ -16,12 +16,33 @@
 
 .nav-link{
     color: rgb(0, 0, 0);
-    font-size: large !important;
+    font-size: medium !important;
     cursor: pointer;
 }
 
+.form-control{
+    color: rgb(0, 0, 0);
+    font-size: medium !important;
+    cursor: pointer;
+    border: solid 1px rgb(105, 105, 105) !important;
+    margin-left: 8px !important;
+}
+
+
+.btn-search{
+    color: rgb(0, 0, 0) !important;
+    font-size: medium !important;
+    cursor: pointer;
+    border: solid 1px rgb(105, 105, 105)!important;
+}
+
+.btn-search:hover{
+    background-color: #b1b1b1 !important;
+}
+
+
 .nav-link:hover{
-    color: #7e7e7e;
+    color: #e10f36;
 }
 
 .btn-search{
@@ -35,12 +56,13 @@
 }
 
 .btn-search:hover{
-    border-color: #838383;
-    background-color: #838383;
+    border-color: #e10f36 !important;
+    background-color: #e10f36 !important;
+    color: #ffffff !important;
 }
 
 .logoNav{
-    max-height: 50px;
+    max-height: 100px;
     max-width: auto;
 }
 
@@ -52,8 +74,17 @@
 }
 
 .navbar-nav{
-    margin-left: 30%;
+    margin-left: 20%;
 }
+
+@media (max-width:1000px){
+    .navbar-nav{
+        margin-left: 00%;
+    }
+    .form-control{
+        margin-left: 0px !important;
+    }
+  }
 /* 
 .nav-link_tatuador{
     border-right: solid 1px rgb(0, 0, 0);
