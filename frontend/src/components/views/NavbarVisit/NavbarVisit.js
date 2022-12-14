@@ -36,6 +36,11 @@ return(
           </Link>
         </li>
         <li className="nav-item">
+          <Link className="Link" to="/blog">
+          <a className="nav-link active">Blog</a>
+          </Link>
+        </li>
+        <li className="nav-item">
           <Link className="Link" to="/register">
           <a className="nav-link active">Unirme</a>
           </Link>
@@ -45,12 +50,12 @@ return(
           <a className="nav-link active">Buscar</a>
           </Link>
         </li> */}
-        <li className="nav-item">
+        {/* <li className="nav-item">
         <form className="d-flex" role="search">
         <input className="form-control me-2" type="search" placeholder="Buscar mi tatuador" aria-label="Search"/>
         <button className="btn btn-search btn-outline-success" type="submit">Buscar</button>
       </form>
-        </li>
+        </li> */}
         
       </ul>
       {/* <form className="d-flex" role="search">

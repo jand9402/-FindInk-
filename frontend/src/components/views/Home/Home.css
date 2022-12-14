@@ -161,3 +161,19 @@
     }
     
   } */
+
+  /* .carousel{
+    background-image: url(../../../assets/banner2.jpeg);
+    height: 380px;
+  } */
+
+  .imagenbanner2{
+    border: solid 2px red;
+  }
+
+  .carousel-item{
+    background-image: url("../../../assets/banner2.jpeg");
+    background-color: rgb(82, 82, 82);
+    height: 400px;
+    text-align: center;
+}

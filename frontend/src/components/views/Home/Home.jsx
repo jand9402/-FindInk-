@@ -24,7 +24,7 @@ const Home = props => {
     const { route } = props
     return (
         <>
-            <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
+            {/* <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <h1 className='text_banner1'>¡Conoce a los mejores tatuadores de Colombia!</h1>
@@ -34,7 +34,20 @@ const Home = props => {
                         </Link>
                     </div>
                 </div>
-            </div>
+            </div> */}
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <button>test</button>
+    </div>
+  </div>
+
+</div>
             <CardsHome />
             <div className='contenedorVideoHome'>
                 <div className='container'>
