@@ -40,13 +40,51 @@ const Home = props => {
                     <div className="carousel-item active">
                         <img className="d-block w-100" src="./imagenes/banner0.2.jpg" alt="First slide" />
                         <div className="carousel-caption d-none d-md-block">
-                            <h2 className="tituloBanner">¡Conoce a los mejores tatuadores!</h2>
-                            <p className="textoBanner">Findink te hace la vida más fácil, conecta con los mejores tatuadores, 
+                            <div className='row'>
+                                <div  className='col col12'> 
+                                <h2 className="tituloBanner">¡Conoce a los mejores</h2>
+                            <h2 className="tituloBanner2">tatuadores!</h2>
+                            <p className="textoBanner1">Findink te hace la vida más fácil, conecta con los mejores </p>
+                                <p className="textoBanner2">tatuadores, 
                                 conoce su talento y tatúate con ellos.</p>
+                                </div>
+                                <div  className='col col13'>
+                                    
+                                <div className='buscar_box'>
+            <form>
+                <h3>¡Encuentra a tu </h3>
+                <h3>tatuador ideal!</h3>
+                <div className=''>
+                    <input 
+                    type="text"
+                    placeholder='Palabra clave'
+                    />       
+                </div>
+                <div className=''>
+                    <input 
+                    type="text"
+                    placeholder='Ubicación geográfica'
+                    />       
+                </div>
+                <div className=''>
+                    <input 
+                    type="text"
+                    placeholder='Tipo de usuario'
+                    />       
+                </div>
+                <button>Buscar</button>
+                
+                            
+            </form>
+        </div>
+
+
+                                </div>
+                            </div>
+                           
+                                
                         </div>
-                        <div className="carousel-caption d-none d-md-block">
-                            <p className="test23">hola</p>
-                        </div>
+                    
                     </div>
                     <div className="carousel-item">
                         <img className="d-block w-100" src="./imagenes/banner0.3.jpg" alt="Second slide" />
