@@ -35,19 +35,27 @@ const Home = props => {
                     </div>
                 </div>
             </div> */}
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-        <button>test</button>
-    </div>
-  </div>
-
-</div>
+            <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
+                        <img className="d-block w-100" src="./imagenes/banner0.2.jpg" alt="First slide" />
+                        <div className="carousel-caption d-none d-md-block">
+                            <h2 className="tituloBanner">¡Conoce a los mejores tatuadores!</h2>
+                            <p className="textoBanner">Findink te hace la vida más fácil, conecta con los mejores tatuadores, 
+                                conoce su talento y tatúate con ellos.</p>
+                        </div>
+                        <div className="carousel-caption d-none d-md-block">
+                            <p className="test23">hola</p>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
+                        <img className="d-block w-100" src="./imagenes/banner0.3.jpg" alt="Second slide" />
+                    </div>
+                    <div className="carousel-item">
+                        <img className="d-block w-100" src="..." alt="Third slide" />
+                    </div>
+                </div>
+            </div>
             <CardsHome />
             <div className='contenedorVideoHome'>
                 <div className='container'>
