@@ -211,5 +211,41 @@
   }
 
   .buscar_box{
-    border: solid 2px red;
+  }
+
+  .formbanner{
+    background-color: white;
+    width: 70%;
+    height: 320px;
+    float: right;
+    margin-top: -80px;
+
+  }
+
+  .textboxbuscar1{
+    margin-top: 5%;
+    color: black;
+    text-align: left;
+    margin-left: 5%;
+  }
+  .textboxbuscar2{
+    color: black;
+    text-align: left;
+    margin-left: 5%;
+  }
+
+  .inputboxbanner{
+    border: none;
+    margin-top: 30px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.651) !important;
+    width: 80%;
+  }
+  .btnbuscarbaner{
+    height: 45px;
+    width: 120px;
+    margin-top: 30px;
+    border: solid 2px black;
+    color: white;
+    background-color: black;
+    border-radius: none !important;
   }

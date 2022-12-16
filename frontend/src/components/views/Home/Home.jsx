@@ -51,28 +51,31 @@ const Home = props => {
                                 <div  className='col col13'>
                                     
                                 <div className='buscar_box'>
-            <form>
-                <h3>¡Encuentra a tu </h3>
-                <h3>tatuador ideal!</h3>
+            <form className='formbanner'>
+                <h3 className='textboxbuscar1'>¡Encuentra a tu </h3>
+                <h3 className='textboxbuscar2'>tatuador ideal!</h3>
                 <div className=''>
                     <input 
+                    className='inputboxbanner'
                     type="text"
                     placeholder='Palabra clave'
                     />       
                 </div>
                 <div className=''>
-                    <input 
+                    <input
+                    className='inputboxbanner' 
                     type="text"
                     placeholder='Ubicación geográfica'
                     />       
                 </div>
                 <div className=''>
                     <input 
+                    className='inputboxbanner'
                     type="text"
                     placeholder='Tipo de usuario'
                     />       
                 </div>
-                <button>Buscar</button>
+                <button className=' btnbuscarbaner'>Buscar</button>
                 
                             
             </form>
