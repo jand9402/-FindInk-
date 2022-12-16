@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Home.css"
-import CardsHome from '../CardsHome/CardsHome'
+import CardsHome from '../../CardsHome/CardsHome'
+import BannerHome from '../../BannerHome/BannerHome'
 import video from "../../../assets/videoHome.mp4"
 import imagenfindink from "../../../assets/imagenfindink.jpeg"
 import { Link } from 'react-router-dom'
@@ -24,80 +25,8 @@ const Home = props => {
     const { route } = props
     return (
         <>
-            {/* <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <h1 className='text_banner1'>¡Conoce a los mejores tatuadores de Colombia!</h1>
-                        <h3 className='sub_banner1'>Un sistema creado para ayudarte</h3>
-                        <Link to="/tatuadores">
-                        <button className='btn_banner1'>ENCUENTRA A TU TATUADOR</button>
-                        </Link>
-                    </div>
-                </div>
-            </div> */}
-            <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img className="d-block w-100" src="./imagenes/banner0.2.jpg" alt="First slide" />
-                        <div className="carousel-caption d-none d-md-block">
-                            <div className='row'>
-                                <div  className='col col12'> 
-                                <h2 className="tituloBanner">¡Conoce a los mejores</h2>
-                            <h2 className="tituloBanner2">tatuadores!</h2>
-                            <p className="textoBanner1">Findink te hace la vida más fácil, conecta con los mejores </p>
-                                <p className="textoBanner2">tatuadores, 
-                                conoce su talento y tatúate con ellos.</p>
-                                </div>
-                                <div  className='col col13'>
-                                    
-                                <div className='buscar_box'>
-            <form className='formbanner'>
-                <h3 className='textboxbuscar1'>¡Encuentra a tu </h3>
-                <h3 className='textboxbuscar2'>tatuador ideal!</h3>
-                <div className=''>
-                    <input 
-                    className='inputboxbanner'
-                    type="text"
-                    placeholder='Palabra clave'
-                    />       
-                </div>
-                <div className=''>
-                    <input
-                    className='inputboxbanner' 
-                    type="text"
-                    placeholder='Ubicación geográfica'
-                    />       
-                </div>
-                <div className=''>
-                    <input 
-                    className='inputboxbanner'
-                    type="text"
-                    placeholder='Tipo de usuario'
-                    />       
-                </div>
-                <button className=' btnbuscarbaner'>Buscar</button>
-                
-                            
-            </form>
-        </div>
-
-
-                                </div>
-                            </div>
-                           
-                                
-                        </div>
-                    
-                    </div>
-                    <div className="carousel-item">
-                        <img className="d-block w-100" src="./imagenes/banner0.3.jpg" alt="Second slide" />
-                    </div>
-                    <div className="carousel-item">
-                        <img className="d-block w-100" src="..." alt="Third slide" />
-                    </div>
-                </div>
-            </div>
-            <CardsHome />
+           <BannerHome/>
+           <CardsHome/>
             <div className='contenedorVideoHome'>
                 <div className='container'>
                     <div className='row row_video'>

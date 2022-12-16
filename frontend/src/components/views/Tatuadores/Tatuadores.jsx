@@ -7,14 +7,13 @@ import FilterTatuadores from '../FiltrosTatuadores/Filtros';
 
 
 
-const Home = props => {
+export default function Tatuadores(){
 
     const dispatch = useDispatch();
     const allTatuadores = useSelector((state) => state.tatuadores);
-    const { route } = props
     return (
         <>
-            <div className="container container_test">
+            {/* <div className="container container_test">
                 <div className='d-flex justify-content-center'>
                 <div className='publicidad_tatuadores_page'>
                     <h1 className="publicdadTitulo">Espacio para publicidad</h1>
@@ -40,9 +39,8 @@ const Home = props => {
           );
         })}
     </div>
-    </div>
+    </div> */}
+    <h1>Lista de Tatuadores</h1>
         </>
     )
 }
-
-export default Home

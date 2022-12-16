@@ -26,12 +26,12 @@ return(
         </Link>
         </li>
         <li className="nav-item">
-          <Link className="Links" to="/">
+          <Link className="Links" to="/preguntas">
           <a className="nav-link active nav-link_preguntas" aria-current="page">Preguntas frecuentes</a>
           </Link>
         </li>
         <li className="nav-item dropdown">
-        <Link className="Links" to="/">
+        <Link className="Links" to="/contacto">
           <a className="nav-link">Contáctenos</a>
           </Link>
         </li>

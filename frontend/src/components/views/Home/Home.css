@@ -215,7 +215,7 @@
 
   .formbanner{
     background-color: white;
-    width: 70%;
+    width: 285px;
     height: 320px;
     float: right;
     margin-top: -80px;
@@ -239,13 +239,19 @@
     margin-top: 30px;
     border-bottom: solid 1px rgba(0, 0, 0, 0.651) !important;
     width: 80%;
+    color: rgba(0, 0, 0, 0.63) !important;
   }
   .btnbuscarbaner{
     height: 45px;
     width: 120px;
-    margin-top: 30px;
+    margin-top: 38px;
     border: solid 2px black;
     color: white;
     background-color: black;
     border-radius: none !important;
+  }
+
+  .pholder{
+    color: rgb(255, 14, 14) !important;
+    background-color: red;
   }

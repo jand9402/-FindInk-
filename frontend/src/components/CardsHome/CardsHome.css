@@ -1,3 +1,8 @@
+.contenedor1{
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 51%);
+}
+
 .LinkCards{
     text-decoration: none;
 }
@@ -16,33 +21,52 @@
 
 .all_cards{
     border: none;
-    border-radius: 15px;
+    border-radius: 0px !important; 
     transition: transform 0.4s;
     transform-style: preserve-3d;
-    height: 300px;
-    margin-bottom: 30px;
+    height: 200px;
+    margin-top: 20px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+    
 }
 
 .card_img1{
-    background-image: url("../../../assets/tatuador.png");
+    background-image: url("../../assets/card1.jpg");
 }
 
 .card_img2{
-    background-image: url("../../../assets/estilos.png");
+    background-image: url("../../assets/card2.jpg");
 }
 
 .card_img3{
-    background-image: url("../../../assets/marketplace.png");
+    background-image: url("../../assets/card3.jpg");
+}
+
+.testCardsBG{
+    height: 100%;
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,0.07046568627450978) 55%, rgba(0,0,0,1) 93%);
+transition: transform 0.4s;
+    transform-style: preserve-3d;
+}
+
+.testCardsBG:hover{
+    transform:scale(1.03);
+    cursor: hand;
+    box-shadow: 0px 0px 29px 6px #fafafa;
+    -webkit-transform:scale(1.03);
+    -moz-transform:scale(1.03);
+    -ms-transform:scale(1.03);
+    -o-transform:scale(1.03);
 }
 
 .all_cards:hover{
     transform:scale(1.03);
     cursor: hand;
-    box-shadow: 0px 0px 29px 6px #9F1663;
+    box-shadow: 0px 0px 29px 6px #fafafa;
     -webkit-transform:scale(1.03);
     -moz-transform:scale(1.03);
     -ms-transform:scale(1.03);
