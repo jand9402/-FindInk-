@@ -13,14 +13,11 @@ export default function Tatuadores(){
     const allTatuadores = useSelector((state) => state.tatuadores);
     return (
         <>
-            {/* <div className="container container_test">
+             {/* <div className="container container_test">
                 <div className='d-flex justify-content-center'>
-                <div className='publicidad_tatuadores_page'>
-                    <h1 className="publicdadTitulo">Espacio para publicidad</h1>
-                </div>
+                
                 </div>
     <div className="filtros">
-        <FilterTatuadores/>
     </div>
     <div className="row">
         {allTatuadores.map((t) => {
@@ -39,7 +36,7 @@ export default function Tatuadores(){
           );
         })}
     </div>
-    </div> */}
+    </div>  */}
     <h1>Lista de Tatuadores</h1>
         </>
     )

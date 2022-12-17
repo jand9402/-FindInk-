@@ -14,7 +14,12 @@ export default function CardsHome() {
                     <div class="card all_cards card_img1">
                         <div className="testCardsBG">
                             <div class="card-body">
-                                <h2 className="titulo_ver_tatuadores">01.</h2>
+                                <span className="titulo_ver_tatuadores2">01.</span>
+                                <span className="titulo_ver_tatuadores3">Ver</span>
+                                <p className="titulo_ver_tatuadores4">.</p>
+                                <span className="titulo_ver_tatuadores5">Tatuadores</span>
+                                <p className="titulo_ver_tatuadores6">.</p>
+                                
                             </div>
                             </div>
                     </div>
@@ -26,7 +31,11 @@ export default function CardsHome() {
                     <div class="card all_cards card_img2">
                     <div className="testCardsBG">
                             <div class="card-body">
-                            <h2 className="titulo_ver_tatuadores">02.</h2>
+                            <span className="titulo_ver_tatuadores2">02.</span>
+                                <span className="titulo_ver_tatuadores3">Ver</span>
+                                <p className="titulo_ver_tatuadores4">.</p>
+                                <span className="titulo_ver_tatuadores5">Tatuadores</span>
+                                <p className="titulo_ver_tatuadores6">.</p>
                             </div>
                             </div>
                     </div>
@@ -38,7 +47,11 @@ export default function CardsHome() {
                     <div class="card all_cards card_img3">
                     <div className="testCardsBG">
                             <div class="card-body">
-                            <h2 className="titulo_ver_tatuadores">03.</h2>
+                            <span className="titulo_ver_tatuadores2">03.</span>
+                                <span className="titulo_ver_tatuadores3">Ver</span>
+                                <p className="titulo_ver_tatuadores4">.</p>
+                                <span className="titulo_ver_tatuadores5">Tatuadores</span>
+                                <p className="titulo_ver_tatuadores6">.</p>
                             </div>
                             </div>
                     </div>

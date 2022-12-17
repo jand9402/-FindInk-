@@ -5,7 +5,7 @@ import logo from "../../../assets/logo.png"
 
 function NavbarVisit(){
 return(
-    <nav className="navbar navbar-expand-lg ">
+    <nav className="navbar navbar-expand-lg " id="re">
   <div className="container-fluid">
     <Link to="/">
     <a className="navbar-brand" href="#"><img className="logoNav" src={logo} alt="findink logo"/></a>

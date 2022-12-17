@@ -30,29 +30,30 @@ const Home = props => {
             <div className='contenedorVideoHome'>
                 <div className='container'>
                     <div className='row row_video'>
-                        <div className='col-lg-6 col_text_video'>
-                            <h1 className='title_video_home'>Titulo video</h1>
-                            <p className='text_video_home'>Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Doloremque quia nemo dignissimos quod aliquam doloribus
-                                itaque corporis ducimus possimus. Eius, incidunt! Repellat doloribus tempore
-                                provident sed accusantium ullam tempora facere. Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Doloremque quia nemo dignissimos quod aliquam doloribus
-                                itaque corporis ducimus possimus. Eius, incidunt! Repellat doloribus tempore
-                                provident sed accusantium ullam tempora facere.</p>
-                            <p className='text_video_home'>Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Doloremque quia nemo dignissimos quod aliquam doloribus
-                                itaque corporis ducimus possimus. Eius, incidunt! Repellat doloribus tempore
-                                provident sed accusantium ullam tempora facere.</p>
+                    <div className='col-lg-2 col_text_video'>
+                            <div className='contenedor_volver_video'>
+                            <a className='nav-link volver_video_home ' href="#re">Volver arriba ——————
+                            </a>
+                            </div>
                         </div>
-                        <div className='col-lg-6 col_video_video justify-content-center'>
+                        <div className='col-lg-3 col_text_video'>
+                            <div className='contenedor_text_video'>
+                            <p className='title_video_home'>Lorem ipsum dolor sit, amet consectetur 
+                            adipisicing
+                            </p>
+                            </div>
+                        </div>
+                        <div className='col-lg-7 col_video_video justify-content-center'>
+                        <div className='contenedor_viedo_video'>
                             <video className='video_home' controls>
                                 <source src={video} type="video/mp4" />
                             </video>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="contenedor2">
+            {/* <div className="contenedor2">
                 <div className="container">
                     <h1 className="title_botones pt-5">¿Eres tatuador?</h1>
                     <div className="row row_3botones">
@@ -90,7 +91,7 @@ const Home = props => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }
