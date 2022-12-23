@@ -7,8 +7,11 @@ export default function TresBotonesHome() {
 
     return (
         <div className="contenedorDeTest1">
+            
                 <div className='contenedorDeTest'>
+                    
                     <div className='row row_botonesHome'>
+                        
                     <div className='col col_text_botones'>
                             <div className='contenedor_textBotones'>
                             <p>¿Eres tatuador?</p>

@@ -10,6 +10,9 @@
 }
 
 .row_botonesHome{
+    padding-left: 0 !important;
+  padding-right: 0 !important;
+  width: 100% !important;
 }
 
 .col_text_botones{
