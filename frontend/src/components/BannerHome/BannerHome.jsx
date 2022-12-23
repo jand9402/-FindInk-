@@ -9,6 +9,14 @@ export default function BannerHome() {
         <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
         <div className="carousel-inner">
             <div className="carousel-item active">
+                <div className="div_oculto">
+                <h2 className="tituloBanner mini1">¡Conoce a los mejores tatuadores</h2>
+                            <p className="textoBanner1 mini3">Findink te hace la vida más fácil, conecta con 
+                            los mejores tatuadores, conoce su talento y tatúate con ellos. </p>
+                            <Link to="/tatuadores">
+                            <button className="botonocultobanner">Buscar tatuadores</button>
+                            </Link>
+                </div>
                 <img className="d-block w-100" src="./imagenes/banner0.2.jpg" alt="First slide" />
                 <div className="carousel-caption d-none d-md-block">
                     <div className='row'>

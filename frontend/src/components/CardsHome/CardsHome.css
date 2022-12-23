@@ -146,7 +146,9 @@ transition: transform 0.4s;
     color: rgb(196, 196, 196);
 }
 @media (max-width: 450px) {
-  
+    .all_cards{
+        width: 96%;
+    }
   }
 
 

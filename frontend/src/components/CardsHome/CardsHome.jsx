@@ -34,7 +34,7 @@ export default function CardsHome() {
                             <span className="titulo_ver_tatuadores2">02.</span>
                                 <span className="titulo_ver_tatuadores3">Ver</span>
                                 <p className="titulo_ver_tatuadores4">.</p>
-                                <span className="titulo_ver_tatuadores5">Tatuadores</span>
+                                <span className="titulo_ver_tatuadores5">Estilos</span>
                                 <p className="titulo_ver_tatuadores6">.</p>
                             </div>
                             </div>
@@ -48,9 +48,9 @@ export default function CardsHome() {
                     <div className="testCardsBG">
                             <div class="card-body">
                             <span className="titulo_ver_tatuadores2">03.</span>
-                                <span className="titulo_ver_tatuadores3">Ver</span>
+                                <span className="titulo_ver_tatuadores3">Ir al</span>
                                 <p className="titulo_ver_tatuadores4">.</p>
-                                <span className="titulo_ver_tatuadores5">Tatuadores</span>
+                                <span className="titulo_ver_tatuadores5">Marketplace</span>
                                 <p className="titulo_ver_tatuadores6">.</p>
                             </div>
                             </div>
