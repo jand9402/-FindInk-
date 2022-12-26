@@ -1,13 +1,35 @@
 
 
  .card-img-top{
-    height: 260px;
+    height: 250px;
  }
+
+ .oculto_img_card{
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    align-items: center;
+    display: table;
+    background-color: black;
+}
+
+.estilo_tatuador_card{
+    color: white;
+    font-size: 10px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.like_cora_button{
+    border: white;
+    height: 25px;
+    float: right;
+    width: 28px;
+}
 
  .card_tatuadores{
     border: none;
     background-color: rgba(0, 0, 0, 0.219) !important;
-    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
     transition: transform 0.4s;
     transform-style: preserve-3d;
  }

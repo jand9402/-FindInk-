@@ -112,6 +112,7 @@ const Register = () => {
 
     return (
         <>
+        <div className='loginfondo'>
             <div className='container'>
                 <div className='row row_form justify-content-center'>
                     <div className='login-box register-box'>
@@ -322,6 +323,7 @@ const Register = () => {
                     </div>
                 </div>
             </div >
+            </div>
 
         </>
     )

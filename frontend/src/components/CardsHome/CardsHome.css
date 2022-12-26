@@ -148,6 +148,7 @@ transition: transform 0.4s;
 @media (max-width: 450px) {
     .all_cards{
         width: 96%;
+        margin-left: 5px;
     }
   }
 

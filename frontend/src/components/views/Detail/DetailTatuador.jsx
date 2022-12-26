@@ -63,11 +63,6 @@ export default function DetailEvent(){
         </>
 
 			</section>
-
-			<div class="holy-grail-sidebar-2 hg-sidebar">
-				<p>Espacio para publicidad</p>
-			</div>
-
 		</div>
 
 

@@ -2,7 +2,7 @@ import React from 'react'
 import "./Tatuadores.css"
 import { Link } from 'react-router-dom'
 import { useSelector, useDispatch } from "react-redux";
-import CardsTatuadores from '../CardsTatuadores/CardsTatuadores';
+import CardsTatuadores from '../../CardsTatuadores/CardsTatuadores'
 import FilterTatuadores from '../FiltrosTatuadores/Filtros';
 
 
@@ -13,12 +13,12 @@ export default function Tatuadores(){
     const allTatuadores = useSelector((state) => state.tatuadores);
     return (
         <>
-             {/* <div className="container container_test">
-                <div className='d-flex justify-content-center'>
-                
+             <div className="container container_tatuadores">
+                <div className='justify-content-center'>
+                <h2 className='titulo_cardsTatuadoresHome'>¡Últimos tatuadores / estudios!</h2>
+                <h5 className='subtitulo_cardsTatuadoresHome'>Échale un vistaso a los últimos estudios / tatuadores registrados</h5>
                 </div>
-    <div className="filtros">
-    </div>
+
     <div className="row">
         {allTatuadores.map((t) => {
           return (
@@ -36,8 +36,7 @@ export default function Tatuadores(){
           );
         })}
     </div>
-    </div>  */}
-    <h1>Lista de Tatuadores</h1>
+    </div> 
         </>
     )
 }

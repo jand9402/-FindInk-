@@ -54,29 +54,7 @@ const initialState = {
             galeria: ["https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg"],
             rate: 5,
             visitas: 12
-        }, {
-            nombre_real: "Tatuador 5",
-            nombre: "Tatuador 5",
-            id: 5,
-            pais: "Colombia",
-            ciudad: "Cali",
-            estilos: "Neotradicional",
-            foto_de_perfil: "https://www.radiorafaela.com.ar/wp-content/uploads/2021/09/I4PZI3PSQBEX7JBAKXFS35BJZE.jpg",
-            galeria: ["https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg"],
-            rate: 5,
-            visitas: 1
-        }, {
-            nombre_real: "Tatuador 6",
-            nombre: "Tatuador 6",
-            id: 6,
-            pais: "Colombia",
-            ciudad: "Bogota",
-            estilos: "Acuarela",
-            foto_de_perfil: "https://tattop.com/files/2017/08/tatu-300x300.jpg",
-            galeria: ["https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg"],
-            rate: 5,
-            visitas: 24
-        }, {
+        },  {
             nombre_real: "Tatuador 7",
             nombre: "Tatuador 7",
             id: 7,
@@ -146,28 +124,6 @@ const initialState = {
             galeria: ["https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg"],
             rate: 5,
             visitas: 12
-        }, {
-            nombre_real: "Tatuador 5",
-            nombre: "Tatuador 5",
-            id: 5,
-            pais: "Colombia",
-            ciudad: "Cali",
-            estilos: "Neotradicional",
-            foto_de_perfil: "https://www.radiorafaela.com.ar/wp-content/uploads/2021/09/I4PZI3PSQBEX7JBAKXFS35BJZE.jpg",
-            galeria: ["https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg"],
-            rate: 5,
-            visitas: 1
-        }, {
-            nombre_real: "Tatuador 6",
-            nombre: "Tatuador 6",
-            id: 6,
-            pais: "Colombia",
-            ciudad: "Bogota",
-            estilos: "Acuarela",
-            foto_de_perfil: "https://tattop.com/files/2017/08/tatu-300x300.jpg",
-            galeria: ["https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg"],
-            rate: 5,
-            visitas: 24
         }, {
             nombre_real: "Tatuador 7",
             nombre: "Tatuador 7",

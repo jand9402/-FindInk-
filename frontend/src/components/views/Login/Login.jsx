@@ -33,6 +33,7 @@ const Login = () => {
 
 return(
     <>
+    <div className='loginfondo'>
     <div className='container container_login'>
         <div className='row row_form justify-content-center'>
         <div className='login-box'>
@@ -77,6 +78,7 @@ return(
             </form>
         </div>
         </div>
+    </div>
     </div>
     </>
 )
