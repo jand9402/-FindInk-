@@ -10,7 +10,7 @@ export default function CardsHome() {
             <div className="container">
             <div className="row row_cards">
             <div className="col-lg-4 mt-4 col_cards">
-                <Link to="/tatuadores" className="Links LinkCards">
+                <Link to="/proximamente" className="Links LinkCards">
                     <div class="card all_cards card_img1">
                         <div className="testCardsBG">
                             <div class="card-body">
@@ -27,7 +27,7 @@ export default function CardsHome() {
             </div>
 
             <div className="col-lg-4 mt-4 col_cards">
-                <Link to="/proyects" className="Links LinkCards">
+                <Link to="/proximamente" className="Links LinkCards">
                     <div class="card all_cards card_img2">
                     <div className="testCardsBG">
                             <div class="card-body">
@@ -43,7 +43,7 @@ export default function CardsHome() {
             </div>
 
             <div className="col-lg-4 mt-4 col_cards mb-5">
-                <Link to="/proyects" className="Links LinkCards">
+                <Link to="/proximamente" className="Links LinkCards">
                     <div class="card all_cards card_img3">
                     <div className="testCardsBG">
                             <div class="card-body">

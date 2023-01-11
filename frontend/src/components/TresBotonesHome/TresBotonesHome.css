@@ -45,6 +45,12 @@
     width: 120px;
 }
 
+.all_botonesBotones:hover{
+    background-color: black;
+    color: white;
+    border: solid 1px white;
+}
+
 .boton2botones{
     float: left;
     margin-left: -40px;

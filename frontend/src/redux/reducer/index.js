@@ -11,7 +11,7 @@ const initialState = {
     tatuadores: [
         {
             nombre_real: "Andres Arenas",
-            nombre: "Aregui",
+            nombre: "Aregui Kun",
             id: 1,
             pais: "Colombia",
             ciudad: "Medellín",
@@ -81,7 +81,7 @@ const initialState = {
     tatuadores2: [
         {
             nombre_real: "Andres Arenas",
-            nombre: "Aregui",
+            nombre: "Aregui Kun",
             id: 1,
             pais: "Colombia",
             ciudad: "Medellín",

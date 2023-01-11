@@ -10,6 +10,7 @@ import Contacto from './components/views/Contacto/Contacto';
 import Contact from './components/views/Contact/Contact';
 import Preguntas from './components/views/Preguntas/Preguntas';
 import Blog from './components/views/Blog/Blog';
+import Pronto from './components/views/Pronto/Pronto';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
 	  <Route path="/contacto" exact element={<Contact/>}/>
 	  <Route path="/preguntas" exact element={<Preguntas/>}/>
 	  <Route path="/blog" exact element={<Blog/>}/>
+	  <Route path='/proximamente' exact element={<Pronto/>}/>
       <Route path="/detail/:id" exact element={<DetailTatuador/>}/>
 	</Routes>
   </div>

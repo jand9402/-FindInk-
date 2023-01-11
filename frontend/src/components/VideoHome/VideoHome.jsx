@@ -18,8 +18,11 @@ export default function VideoHome() {
                         </div>
                         <div className='col-lg-3 col_text_video'>
                             <div className='contenedor_text_video'>
-                            <p className='title_video_home'>Lorem ipsum dolor sit, amet consectetur 
-                            adipisicing
+                            <p className='title_video_home'>BUSCA
+                            </p>
+                            <p className='title_video_home'>CONÉCTA
+                            </p>
+                            <p className='title_video_home'>TATÚATE
                             </p>
                             </div>
                         </div>

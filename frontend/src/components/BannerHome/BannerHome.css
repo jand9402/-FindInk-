@@ -128,6 +128,12 @@
     border-radius: none !important;
   }
 
+  .btnbuscarbaner:hover{
+    background-color: white;
+    border: solid 1px black !important;
+    color: black;
+  }
+
   .div_oculto{
     position: absolute;
     color: rgba(255, 0, 0, 0);
@@ -139,10 +145,16 @@
       }
 
       .botonocultobanner{
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         border: none;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
       }
+
+      /* .botonocultobanner:hover{
+        background-color: white;
+        border: solid 1px black !important;
+        color: black;
+      } */
 
       .mini1{
         margin-top: 7%;

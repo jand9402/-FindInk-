@@ -13,7 +13,7 @@ export default function BannerHome() {
                 <h2 className="tituloBanner mini1">¡Conoce a los mejores tatuadores</h2>
                             <p className="textoBanner1 mini3">Findink te hace la vida más fácil, conecta con 
                             los mejores tatuadores, conoce su talento y tatúate con ellos. </p>
-                            <Link to="/tatuadores">
+                            <Link to="/proximamente">
                             <button className="botonocultobanner">Buscar tatuadores</button>
                             </Link>
                 </div>
@@ -56,8 +56,9 @@ export default function BannerHome() {
                                             <option value="3">Tienda</option>
                                         </select>
                                     </div>
+                                    <Link to="/proximamente">
                                     <button className=' btnbuscarbaner'>Buscar</button>
-
+                                    </Link>
 
                                 </form>
                             </div>

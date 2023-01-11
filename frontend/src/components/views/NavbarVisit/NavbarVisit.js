@@ -21,27 +21,27 @@ return(
           </Link>
         </li> */}
         <li className="nav-item">
-        <Link className="Links" to="/tatuadores">
+        <Link className="Links" to="/proximamente">
           <a className="nav-link nav-link_tatuador">Buscar tatuadores</a>
         </Link>
         </li>
         <li className="nav-item">
-          <Link className="Links" to="/preguntas">
+          <Link className="Links" to="/proximamente">
           <a className="nav-link active nav-link_preguntas" aria-current="page">Preguntas frecuentes</a>
           </Link>
         </li>
         <li className="nav-item dropdown">
-        <Link className="Links" to="/contacto">
+        <Link className="Links" to="/proximamente">
           <a className="nav-link">Contáctenos</a>
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="Link" to="/blog">
+          <Link className="Link" to="/proximamente">
           <a className="nav-link active">Blog</a>
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="Link" to="/register">
+          <Link className="Link" to="/proximamente">
           <a className="nav-link active">Unirme</a>
           </Link>
         </li>

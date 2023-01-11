@@ -51,6 +51,8 @@
     font-size: 10px !important;
     transform: rotate(0deg);
     color: gray;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
   
 }
