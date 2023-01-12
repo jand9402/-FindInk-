@@ -5,74 +5,92 @@ import {
     GET_TATUADORES,
     FILTER_BY_STYLE
 } from "../actions";
+import AregiPerfil from '../../assets/AregiPerfil.jpg'
+import AregiTattoo from '../../assets/AregiTattoo.jpg'
+import MoncadaPerfil from '../../assets/MoncadaPerfil.JPG'
+import MoncadaTattoo from '../../assets/MoncadaTattoo.jpg'
+import ValeriaPerfil from '../../assets/ValeriaPerfil.jpg'
+import ValeriaTattoo from '../../assets/ValeriaTattoo.jpg'
+import BokyPerfil from '../../assets/BokyPerfil.jpg'
+import BokyTattoo from '../../assets/BokyTattoo.jpg'
+import NikPerfil from '../../assets/NikPerfil.jpg'
+import NikTattoo from '../../assets/NikTattoo.jpg'
+import NanaPerfil from '../../assets/NanaPerfil.jpg'
+import NanaTattoo from '../../assets/NanaTattoo.jpg'
 
 
 const initialState = {
     tatuadores: [
         {
             nombre_real: "Andres Arenas",
-            nombre: "Aregui Kun",
+            nombre: "Aregui",
             id: 1,
             pais: "Colombia",
             ciudad: "Medellín",
-            estilos: "Cartoon",
-            foto_de_perfil: "https://i.pinimg.com/originals/ce/cc/ae/ceccaeac3081121af892bae6c2aa7d7d.jpg  ",
+            estilos: "Anime",
+            foto_de_perfil: AregiPerfil,
+            foto_tattoo: AregiTattoo,
             galeria: ["https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg"],
             rate: 5,
             visitas: 2568542
         },
         {
-            nombre_real: "Tatuador 2",
-            nombre: "Tatuador 2",
+            nombre_real: "Sebastian Moncada",
+            nombre: "Moncada ink",
             id: 2,
             pais: "Colombia",
             ciudad: "Medellín",
-            estilos: "Acuarela",
-            foto_de_perfil: "https://www.esdip.com/wp-content/uploads/2019/09/Cu%C3%A1nto-gana-un-tatuador.jpg",
+            estilos: "Blackwork",
+            foto_de_perfil: MoncadaPerfil,
+            foto_tattoo: MoncadaTattoo,
             galeria: ["https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg"],
             rate: 5,
             visitas: 6
         }, {
-            nombre_real: "Tatuador 3",
-            nombre: "Tatuador 3",
+            nombre_real: "Valeria Sanchez",
+            nombre: "Valeria S. ink",
             id: 3,
             pais: "Colombia",
             ciudad: "Bogota",
-            estilos: "Realismo",
-            foto_de_perfil: "https://logiabarcelona.com/wp-content/uploads/2015/11/bangbang2f-1-web.jpg",
+            estilos: "Full color",
+            foto_de_perfil: ValeriaPerfil,
+            foto_tattoo: ValeriaTattoo,
             galeria: ["https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg"],
             rate: 5,
             visitas: 35
         }, {
-            nombre_real: "Tatuador 4",
-            nombre: "Tatuador 4",
+            nombre_real: "Cristian Castañeda",
+            nombre: "Boky",
             id: 4,
             pais: "Mexico",
             ciudad: "Leon",
-            estilos: "Blackwork",
-            foto_de_perfil: "https://cdn.elnacional.com/wp-content/uploads/2018/01/alex-bruz-cotiza-como-mejor-tatuador-venezuela_220109.jpg",
+            estilos: "Full color",
+            foto_de_perfil: BokyPerfil,
+            foto_tattoo: BokyTattoo,
             galeria: ["https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg"],
             rate: 5,
             visitas: 12
         },  {
-            nombre_real: "Tatuador 7",
-            nombre: "Tatuador 7",
+            nombre_real: "Nikoll Lopez",
+            nombre: "Nik ink",
             id: 7,
             pais: "Colombia",
             ciudad: "Medellín",
-            estilos: "Acuarela",
-            foto_de_perfil: "https://cdn.forbes.co/2022/01/NFT-4.jpg",
+            estilos: "Realismo",
+            foto_de_perfil: NikPerfil,
+            foto_tattoo: NikTattoo,
             galeria: ["https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg"],
             rate: 5,
             visitas: 9
         }, {
-            nombre_real: "Tatuador 8",
-            nombre: "Tatuador 8",
+            nombre_real: "Natalia Marín Rico",
+            nombre: "Nana Tattoo",
             id: 8,
             pais: "Colombia",
             ciudad: "Medellín",
-            estilos: "Gótico",
-            foto_de_perfil: "https://www.bacanika.com/images/TATUADORES_J%C3%93VENES/Curzi.jpg",
+            estilos: "Blackwork",
+            foto_de_perfil: NanaPerfil,
+            foto_tattoo: NanaTattoo,
             galeria: ["https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg"],
             rate: 5,
             visitas: 0
@@ -81,68 +99,74 @@ const initialState = {
     tatuadores2: [
         {
             nombre_real: "Andres Arenas",
-            nombre: "Aregui Kun",
+            nombre: "Aregui",
             id: 1,
             pais: "Colombia",
             ciudad: "Medellín",
-            estilos: "Cartoon",
-            foto_de_perfil: "https://i.pinimg.com/originals/ce/cc/ae/ceccaeac3081121af892bae6c2aa7d7d.jpg  ",
+            estilos: "Anime",
+            foto_de_perfil: AregiPerfil,
+            foto_tattoo: AregiTattoo,
             galeria: ["https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg"],
             rate: 5,
             visitas: 2568542
         },
         {
-            nombre_real: "Tatuador 2",
-            nombre: "Tatuador 2",
+            nombre_real: "Sebastian Moncada",
+            nombre: "Moncada ink",
             id: 2,
             pais: "Colombia",
             ciudad: "Medellín",
-            estilos: "Acuarela",
-            foto_de_perfil: "https://www.esdip.com/wp-content/uploads/2019/09/Cu%C3%A1nto-gana-un-tatuador.jpg",
+            estilos: "Blackwork",
+            foto_de_perfil: MoncadaPerfil,
+            foto_tattoo: MoncadaTattoo,
             galeria: ["https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg"],
             rate: 5,
             visitas: 6
         }, {
-            nombre_real: "Tatuador 3",
-            nombre: "Tatuador 3",
+            nombre_real: "Valeria Sanchez",
+            nombre: "Valeria S. ink",
             id: 3,
             pais: "Colombia",
             ciudad: "Bogota",
-            estilos: "Realismo",
-            foto_de_perfil: "https://logiabarcelona.com/wp-content/uploads/2015/11/bangbang2f-1-web.jpg",
+            estilos: "Full color",
+            foto_de_perfil: ValeriaPerfil,
+            foto_tattoo: ValeriaTattoo,
             galeria: ["https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg"],
             rate: 5,
             visitas: 35
         }, {
-            nombre_real: "Tatuador 4",
-            nombre: "Tatuador 4",
+            nombre_real: "Cristian Castañeda",
+            nombre: "Boky",
             id: 4,
             pais: "Mexico",
             ciudad: "Leon",
-            estilos: "Blackwork",
-            foto_de_perfil: "https://cdn.elnacional.com/wp-content/uploads/2018/01/alex-bruz-cotiza-como-mejor-tatuador-venezuela_220109.jpg",
+            estilos: "Full color",
+            foto_de_perfil: BokyPerfil,
+            foto_tattoo: BokyTattoo,
             galeria: ["https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg"],
             rate: 5,
             visitas: 12
-        }, {
-            nombre_real: "Tatuador 7",
-            nombre: "Tatuador 7",
+        },  {
+            nombre_real: "Nikoll Lopez",
+            nombre: "Nik ink",
             id: 7,
             pais: "Colombia",
             ciudad: "Medellín",
-            estilos: "Acuarela",
-            foto_de_perfil: "https://cdn.forbes.co/2022/01/NFT-4.jpg",
+            estilos: "Realismo",
+            foto_de_perfil: NikPerfil,
+            foto_tattoo: NikTattoo,
             galeria: ["https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg"],
             rate: 5,
             visitas: 9
         }, {
-            nombre_real: "Tatuador 8",
-            nombre: "Tatuador 8",
+            nombre_real: "Natalia Marín Rico",
+            nombre: "Nana Tattoo",
             id: 8,
             pais: "Colombia",
             ciudad: "Medellín",
-            estilos: "Gótico",
-            foto_de_perfil: "https://www.bacanika.com/images/TATUADORES_J%C3%93VENES/Curzi.jpg",
+            estilos: "Blackwork",
+            foto_de_perfil: NanaPerfil,
+            foto_tattoo: NanaTattoo,
             galeria: ["https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg", "https://findink.com.co/wp-content/uploads/2021/08/0D32CB44-3F67-4922-A40F-324AFA6EF399-576x1024.jpeg"],
             rate: 5,
             visitas: 0

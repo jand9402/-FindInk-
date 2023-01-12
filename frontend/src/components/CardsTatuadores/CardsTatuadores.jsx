@@ -5,7 +5,7 @@ import estrellas from "../../assets/estrellas.png"
 
 
 
-function CardsTatuadores({ id, nombre, pais, estilos, ciudad, foto_de_perfil, galeria, rate, visitas }) {
+function CardsTatuadores({ id, nombre, pais, estilos, ciudad, foto_de_perfil, foto_tattoo, galeria, rate, visitas }) {
 
   return (
     <div className="col-md-4 mb-4">
@@ -20,7 +20,7 @@ function CardsTatuadores({ id, nombre, pais, estilos, ciudad, foto_de_perfil, ga
             </span>
           </button>
         </div>
-        <img src={foto_de_perfil} class="card-img-top" alt="..." />
+        <img src={foto_tattoo} class="card-img-top" alt="..." />
         <div className="seccion_foto">
           <div className="contenedor_row">
           <div className="row row_seccion_foto">
@@ -32,7 +32,7 @@ function CardsTatuadores({ id, nombre, pais, estilos, ciudad, foto_de_perfil, ga
             <img src={estrellas} class="estrellas" alt={nombre}/>
             </div>
             <div className='col-lg-4 col_Boton_accion justify-content-center'>
-              <button className="boton_cardHome_tatuador">Contactar</button>
+              <button className="boton_cardHome_tatuador">En linea</button>
             </div>
           </div>
           </div>

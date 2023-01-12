@@ -30,6 +30,7 @@ export default function Tatuadores(){
               estilos={t.estilos}
               ciudad={t.ciudad} 
               foto_de_perfil={t.foto_de_perfil} 
+              foto_tattoo={t.foto_tattoo} 
               galeria={t.galeria}
               rate={t.rate}
               visitas={t.visitas} />

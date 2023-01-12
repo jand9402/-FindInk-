@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../assets/logo1.1.png"
+import logoPronto from "../../../assets/logo1.1.png"
 import './Pronto.css'
 import { Link } from "react-router-dom";
 
@@ -9,7 +9,7 @@ export default function Pronto() {
     return (
         <>
             <div className="contenedor_pronto">
-            <img className="logoPronto" src={logo} alt="Logo" />
+            <img className="logoPronto" src={logoPronto} alt="Logo" />
             <h1 className="titulo_proximo">
                 ¡Hola Findinker!
             </h1>
