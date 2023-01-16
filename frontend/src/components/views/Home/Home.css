@@ -115,8 +115,8 @@
 
   .img-burbuja{
     /* width: 80px; */
-    width: 95px;
-    margin-top: 2px;
+    width: 100px;
+    /* margin-top: 2px; */
 }
 
 .btn-burbuja{
@@ -127,7 +127,7 @@
     bottom: 30px;
     right: 30px;
     border-radius: 50px;
-    background: #ffffff;
+    background: #ff1717;
     color: #fff;
     text-align: center;
     transition: 300ms all;
@@ -136,7 +136,7 @@
 }
 
 .btn-burbuja:hover{
-    background: #ff1717;
+    background: #ffffff;
 }
    
   
