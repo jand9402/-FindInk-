@@ -7,7 +7,7 @@ export default function BannerPublicidad() {
 
     return (
         <div className="contenedorBannerPublicidad">
-            <a class="" href="https://wa.link/y4efkd" target="_blank">
+            <a class="" href="https://wa.link/jhj2pm" target="_blank">
             <img className="bannerPublicidad" src="./imagenes/publicidadbanner.png" alt="Publicidad" />
             </a>
         </div>
